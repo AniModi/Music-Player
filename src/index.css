@@ -4,7 +4,7 @@
 }
 
 body{
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 html,body{
@@ -23,4 +23,5 @@ html,body{
   justify-content: flex-start;
   align-items: center;
   overflow: auto;
+  overflow-x: hidden;
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from '../../components/NavBar';
 import Songlist from '../../components/Songlist';
 import styles from "./Home.module.css"
 
@@ -32,11 +31,10 @@ const obj = [
 const Home = ()=>{
     return (
         <>
-        <NavBar></NavBar>
         <div className={styles.container}>
             {
                 obj.map(e=>
-                    <Songlist page={e["page"]} name={e["name"]} arr={e["arr"]}></Songlist>
+                    <Songlist key={e["name"]} page={e["page"]} name={e["name"]} arr={e["arr"]}></Songlist>
                 )
             }
                 

@@ -15,7 +15,7 @@ const Card = (props) => {
             setImg(res["results"][props.index]["urls"]["regular"])
     }
     x()
-  }, []);
+  }, [props.index,props.page]);
   return (
     <>
       <div className={styles.container}>
