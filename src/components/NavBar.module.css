@@ -97,6 +97,10 @@
     text-decoration: none;
 }
 
+.dropDown *:hover{
+    scale: 1.01;
+}
+
 .hide{
     display: none;
 }
