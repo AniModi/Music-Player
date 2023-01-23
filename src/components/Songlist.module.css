@@ -1,0 +1,29 @@
+.topSongs{
+    width: 90%;
+    height: 50%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 2rem;
+    width: 100%;
+    height: 15%;
+    color: white;
+}
+
+.songs{
+    width: 100%;
+    height: 80%;
+    min-height: 210px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.songs::-webkit-scrollbar{
+    display: none;
+}
