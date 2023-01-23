@@ -15,11 +15,11 @@ const Login = () => {
                     {"Get access to your music, playlist and account"}
                 </div>
                 <div className={styles.input}>
-                    <label>
+                    <label className={styles.label}>
                         {"Username"}
                         <input type={"text"} placeholder={"Enter your username here"} className={styles.username}/>
                     </label>
-                    <label>
+                    <label className={styles.label}>
                         {"Password"}
                         <input type={"password"} placeholder={"Enter your password here"} className={styles.password}/>
                     </label>
